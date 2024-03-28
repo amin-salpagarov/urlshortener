@@ -1,0 +1,6 @@
+env: "local" # local | dev | prod
+storage_path : "./storage/storage.db" #файл в котором хранится база данных
+http_server: # конфигурация http сервера
+  address: "0.0.0.0"
+  timeout: 4s
+  idle_timeout: 30s
